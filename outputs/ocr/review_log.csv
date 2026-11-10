@@ -1,0 +1,11 @@
+﻿row_id,label,column,raw_text,raw_value,corrected_value,footnote,action,evidence,ocr_score
+8,Philippine Islands,population,"17,635,426",17635426,7635426,1,각주 위첨자 분리,선두 '1'는 각주 '1 Population in 1903.'의 위첨자로 판단. 분리 시에만 하위 항목 합계가 'Outlying possessions' 값과 정확히 일치(유일해). 원본 이미지 육안 대조로 위첨자 확인.,0.9885
+9,Panama Canal Zone,population,"262,810",262810,62810,2,각주 위첨자 분리,선두 '2'는 각주 '2 Population in 1912.'의 위첨자로 판단. 분리 시에만 하위 항목 합계가 'Outlying possessions' 값과 정확히 일치(유일해). 원본 이미지 육안 대조로 위첨자 확인.,0.9448
+1,"United States, with outlying possessions",population,"101, 115, 487",101115487,101115487,,형식 정규화(공백 제거),"자릿수 그룹 유효, 값 변경 없음",0.9624
+2,"United States, exclusive of outlying possessions",population,"91, 972,266",91972266,91972266,,형식 정규화(공백 제거),"자릿수 그룹 유효, 값 변경 없음",0.9638
+2,"United States, exclusive of outlying possessions",label,"United States, exclusive of outlying possessions.",,"United States, exclusive of outlying possessions",,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9995
+3,Outlying possessions,label,Outlying possessions.,,Outlying possessions,,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9993
+4,Alaska,label,Alaska.,,Alaska,,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9991
+5,Hawaii,label,Hawaii.,,Hawaii,,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9358
+6,Porto Rico,label,Porto Rico.,,Porto Rico,,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9988
+8,Philippine Islands,label,Philippine Islands.,,Philippine Islands,,점선 리더/마침표 제거,"표기 정리, 의미 변화 없음",0.9828

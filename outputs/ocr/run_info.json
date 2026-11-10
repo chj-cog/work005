@@ -1,0 +1,65 @@
+{
+  "input": {
+    "path": "input\\census-table.png",
+    "size_px": [
+      1050,
+      505
+    ],
+    "sha256": "fd72e32c16dc0ce4908036b876c19d2c699c611f2ad2d2a8d31ff541a27665f4"
+  },
+  "paddleocr": {
+    "config": {
+      "use_doc_orientation_classify": false,
+      "use_doc_unwarping": false,
+      "use_textline_orientation": false,
+      "lang": "en"
+    },
+    "models_loaded": [
+      "PP-OCRv6_medium_det",
+      "PP-OCRv6_medium_rec"
+    ]
+  },
+  "pp_structure_v3": {
+    "config": {
+      "use_doc_orientation_classify": false,
+      "use_doc_unwarping": false,
+      "use_textline_orientation": false,
+      "use_table_recognition": true,
+      "use_seal_recognition": false,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "lang": "en"
+    },
+    "models_loaded": [
+      "PP-DocBlockLayout",
+      "PP-DocLayout_plus-L",
+      "PP-LCNet_x1_0_doc_ori",
+      "PP-LCNet_x1_0_table_cls",
+      "PP-LCNet_x1_0_textline_ori",
+      "PP-OCRv5_server_det",
+      "PP-OCRv5_server_rec",
+      "RT-DETR-L_wired_table_cell_det",
+      "RT-DETR-L_wireless_table_cell_det",
+      "SLANeXt_wired",
+      "SLANet_plus"
+    ],
+    "model_settings_reported": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ]
+    }
+  }
+}

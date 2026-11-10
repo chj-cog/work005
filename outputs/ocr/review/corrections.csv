@@ -1,0 +1,11 @@
+﻿row_id,label,column,before,after,bbox_xyxy,polygon,ocr_score,change_type,reason,evidence
+1,"United States, with outlying possessions",population,"101, 115, 487","101,115,487","[909, 118, 1033, 144]","[[909, 118], [1033, 118], [1033, 144], [909, 144]]",0.9624,형식 정규화,숫자 사이 공백 제거 (값 불변),쉼표 그룹 유효
+2,"United States, exclusive of outlying possessions",label,"United States, exclusive of outlying possessions.","United States, exclusive of outlying possessions","[28, 163, 543, 186]","[[28, 163], [543, 163], [543, 186], [28, 186]]",0.9995,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+2,"United States, exclusive of outlying possessions",population,"91, 972,266","91,972,266","[922, 163, 1034, 187]","[[922, 163], [1034, 163], [1034, 187], [922, 187]]",0.9638,형식 정규화,숫자 사이 공백 제거 (값 불변),쉼표 그룹 유효
+3,Outlying possessions,label,Outlying possessions.,Outlying possessions,"[27, 208, 246, 232]","[[27, 208], [246, 208], [246, 232], [27, 232]]",0.9993,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+4,Alaska,label,Alaska.,Alaska,"[69, 251, 149, 275]","[[69, 251], [149, 251], [149, 275], [69, 275]]",0.9991,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+5,Hawaii,label,Hawaii.,Hawaii,"[68, 273, 152, 298]","[[68, 273], [152, 273], [152, 298], [68, 298]]",0.9358,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+6,Porto Rico,label,Porto Rico.,Porto Rico,"[69, 296, 189, 320]","[[69, 296], [189, 296], [189, 320], [69, 320]]",0.9988,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+8,Philippine Islands,label,Philippine Islands.,Philippine Islands,"[69, 340, 274, 365]","[[69, 340], [274, 342], [273, 365], [69, 363]]",0.9828,표기 정리,끝의 점선 리더/마침표 제거 (의미 변화 없음),원본에서 레이블 뒤에 점선 리더가 이어짐
+8,Philippine Islands,population,"17,635,426","7,635,426 (각주 1)","[921, 340, 1035, 365]","[[921, 340], [1035, 340], [1035, 365], [921, 365]]",0.9885,값 수정,선두 '1'은 각주 1의 위첨자 → 값에서 분리,"기하: 첫 글자 높이 10px / 숫자 중앙값 17px, 아래끝 y=355 / 기준선 y=362; 산술: 하위 항목 합 = Outlying possessions (유일해)"
+9,Panama Canal Zone,population,"262,810","62,810 (각주 2)","[952, 363, 1035, 388]","[[952, 363], [1035, 363], [1035, 388], [952, 388]]",0.9448,값 수정,선두 '2'은 각주 2의 위첨자 → 값에서 분리,"기하: 첫 글자 높이 11px / 숫자 중앙값 16px, 아래끝 y=378 / 기준선 y=384; 산술: 하위 항목 합 = Outlying possessions (유일해)"

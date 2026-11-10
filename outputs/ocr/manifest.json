@@ -1,0 +1,163 @@
+{
+  "generated_at_utc": "2026-11-10T13:03:31+00:00",
+  "source": {
+    "title": "Thirteenth Census of the United States Taken in the Year 1910, Volume I: Population — Table 1 (Area and population)",
+    "publisher": "U.S. Bureau of the Census",
+    "published": 1913,
+    "url": "https://www2.census.gov/library/publications/decennial/1910/volume-1/volume-1-p3.pdf",
+    "pdf_page": 2,
+    "printed_page": 22,
+    "extraction": "Table region cropped from the PDF page at 200 dpi (provided with the assignment)",
+    "license": "Public domain (U.S. federal government publication)"
+  },
+  "run_location": "local",
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "python": "3.11.9",
+    "python_executable": ".venv\\Scripts\\python.exe",
+    "device": "cpu"
+  },
+  "packages": {
+    "paddlepaddle": "3.2.0",
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "numpy": "2.3.5",
+    "opencv-contrib-python": "4.10.0.84",
+    "pillow": "13.0.0"
+  },
+  "install_source": {
+    "paddlepaddle": "PyPI (official CPU mirror paddlepaddle.org.cn unreachable at install time; same version 3.2.0 as docs recommend)",
+    "paddleocr": "PyPI paddleocr[doc-parser]==3.7.0"
+  },
+  "input": {
+    "path": "input\\census-table.png",
+    "size_px": [
+      1050,
+      505
+    ],
+    "sha256": "fd72e32c16dc0ce4908036b876c19d2c699c611f2ad2d2a8d31ff541a27665f4",
+    "copy_in_outputs": "census-table.png"
+  },
+  "ocr": {
+    "config": {
+      "use_doc_orientation_classify": false,
+      "use_doc_unwarping": false,
+      "use_textline_orientation": false,
+      "lang": "en"
+    },
+    "models_loaded": [
+      "PP-OCRv6_medium_det",
+      "PP-OCRv6_medium_rec"
+    ]
+  },
+  "structure": {
+    "config": {
+      "use_doc_orientation_classify": false,
+      "use_doc_unwarping": false,
+      "use_textline_orientation": false,
+      "use_table_recognition": true,
+      "use_seal_recognition": false,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "lang": "en"
+    },
+    "models_loaded": [
+      "PP-DocBlockLayout",
+      "PP-DocLayout_plus-L",
+      "PP-LCNet_x1_0_doc_ori",
+      "PP-LCNet_x1_0_table_cls",
+      "PP-LCNet_x1_0_textline_ori",
+      "PP-OCRv5_server_det",
+      "PP-OCRv5_server_rec",
+      "RT-DETR-L_wired_table_cell_det",
+      "RT-DETR-L_wireless_table_cell_det",
+      "SLANeXt_wired",
+      "SLANet_plus"
+    ],
+    "model_settings_reported": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ]
+    }
+  },
+  "reconstruction": {
+    "method": "PaddleOCR line boxes; columns by nearest header x-centre, rows by nearest label y-centre",
+    "row_tolerance_px": 14,
+    "score_threshold": 0.9,
+    "unassigned_ocr_lines": [],
+    "checks": [
+      {
+        "name": "area: Outlying possessions = sum(components)",
+        "expected": 716517,
+        "computed": 716517,
+        "pass": true,
+        "resolution": "exact"
+      },
+      {
+        "name": "area: United States, with outlying possessions = United States, exclusive of outlying possessions + Outlying possessions",
+        "expected": 3743306,
+        "computed": 3743306,
+        "pass": true
+      },
+      {
+        "name": "population: Outlying possessions = sum(components)",
+        "expected": 9143221,
+        "computed": 9143221,
+        "pass": true,
+        "resolution": "fixed"
+      },
+      {
+        "name": "population: United States, with outlying possessions = United States, exclusive of outlying possessions + Outlying possessions",
+        "expected": 101115487,
+        "computed": 101115487,
+        "pass": true
+      }
+    ]
+  },
+  "outputs": [
+    "census-table.png",
+    "document.md",
+    "manifest.json",
+    "ocr_lines.json",
+    "ocr_visualization.png",
+    "raw/ocr/census-table_ocr_res_img.png",
+    "raw/ocr/census-table_res.json",
+    "raw/structure/census-table.md",
+    "raw/structure/census-table_layout_det_res.png",
+    "raw/structure/census-table_layout_order_res.png",
+    "raw/structure/census-table_overall_ocr_res.png",
+    "raw/structure/census-table_preprocessed_img.png",
+    "raw/structure/census-table_region_det_res.png",
+    "raw/structure/census-table_res.json",
+    "raw/structure/census-table_table_cell_img.png",
+    "raw/structure/imgs/img_in_table_box_5_3_1049_459.jpg",
+    "review/cell_mapping.csv",
+    "review/corrections.csv",
+    "review/needs_confirmation.csv",
+    "review/review.html",
+    "review/review_items.csv",
+    "review/review_side_by_side.png",
+    "review/review_summary.md",
+    "review_log.csv",
+    "run_info.json",
+    "structure_crosscheck.json",
+    "table.csv",
+    "verification_report.json",
+    "manifest.json"
+  ]
+}

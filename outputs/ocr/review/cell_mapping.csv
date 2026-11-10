@@ -1,0 +1,41 @@
+﻿kind,row_id,label,column,column_title,raw_text,value,ocr_score,bbox_xyxy,within_column_bounds,y_overlap_with_label,independent_mapping_agrees,status
+header,,,label,Table 1,Table 1,,0.962,"[21, 24, 110, 44]",True,,True,
+header,,,area,Gross area,Gross area,,0.9994,"[720, 26, 808, 43]",True,,True,
+header,,,area,(land and water),(land and water),,0.9997,"[692, 41, 837, 61]",True,,True,
+header,,,population,Population:,Population:,,0.9605,"[907, 33, 1006, 53]",True,,True,
+header,,,label,AREA.,AREA.,,0.9756,"[310, 40, 367, 63]",True,,True,
+header,,,population,1910,1910,,0.9391,"[941, 49, 989, 71]",True,,True,
+header,,,area,in square miles.,in square miles.,,0.989,"[693, 59, 832, 79]",True,,True,
+label,1,"United States, with outlying possessions",label,AREA,"United States, with outlying possessions","United States, with outlying possessions",0.9993,"[93, 119, 515, 142]",True,1.0,True,
+value,1,"United States, with outlying possessions",area,Gross area (land and water) in square miles.,"3,743,306",3743306,0.9965,"[727, 118, 833, 142]",True,1.0,True,검증됨(자동)
+value,1,"United States, with outlying possessions",population,Population: 1910,"101, 115, 487",101115487,0.9624,"[909, 118, 1033, 144]",True,1.0,True,검증됨(자동)
+label,2,"United States, exclusive of outlying possessions",label,AREA,"United States, exclusive of outlying possessions.","United States, exclusive of outlying possessions",0.9995,"[28, 163, 543, 186]",True,1.0,True,
+value,2,"United States, exclusive of outlying possessions",area,Gross area (land and water) in square miles.,"3,026,789",3026789,0.9997,"[726, 161, 833, 188]",True,1.0,True,검증됨(자동)
+value,2,"United States, exclusive of outlying possessions",population,Population: 1910,"91, 972,266",91972266,0.9638,"[922, 163, 1034, 187]",True,1.0,True,검증됨(자동)
+label,3,Outlying possessions,label,AREA,Outlying possessions.,Outlying possessions,0.9993,"[27, 208, 246, 232]",True,1.0,True,
+value,3,Outlying possessions,area,Gross area (land and water) in square miles.,"716,517",716517,0.9999,"[747, 203, 834, 235]",True,1.0,True,검증됨(자동)
+value,3,Outlying possessions,population,Population: 1910,"9,143,221",9143221,0.9998,"[929, 204, 1035, 235]",True,1.0,True,검증됨(자동)
+label,4,Alaska,label,AREA,Alaska.,Alaska,0.9991,"[69, 251, 149, 275]",True,1.0,True,
+value,4,Alaska,area,Gross area (land and water) in square miles.,"590,884",590884,1.0,"[749, 249, 835, 276]",True,1.0,True,검증됨(자동)
+value,4,Alaska,population,Population: 1910,"64,356",64356,0.9999,"[963, 251, 1036, 276]",True,1.0,True,검증됨(자동)
+label,5,Hawaii,label,AREA,Hawaii.,Hawaii,0.9358,"[68, 273, 152, 298]",True,1.0,True,
+value,5,Hawaii,area,Gross area (land and water) in square miles.,"6,449",6449,0.9992,"[769, 271, 835, 300]",True,1.0,True,검증됨(자동)
+value,5,Hawaii,population,Population: 1910,"191,909",191909,0.9998,"[952, 274, 1035, 299]",True,0.96,True,검증됨(자동)
+label,6,Porto Rico,label,AREA,Porto Rico.,Porto Rico,0.9988,"[69, 296, 189, 320]",True,1.0,True,
+value,6,Porto Rico,area,Gross area (land and water) in square miles.,"3,435",3435,0.9965,"[769, 294, 837, 323]",True,1.0,True,검증됨(자동)
+value,6,Porto Rico,population,Population: 1910,"1,118,012",1118012,0.9998,"[930, 297, 1035, 321]",True,0.958,True,검증됨(자동)
+label,7,Military and naval service abroad,label,AREA,Military and naval service abroad,Military and naval service abroad,0.9996,"[69, 319, 424, 342]",True,1.0,True,
+value,7,Military and naval service abroad,area,Gross area (land and water) in square miles.,,,,"[671, 317, 855, 344]",,,True,공란
+value,7,Military and naval service abroad,population,Population: 1910,"55,608",55608,0.9994,"[962, 319, 1034, 343]",True,1.0,True,검증됨(자동)
+label,8,Philippine Islands,label,AREA,Philippine Islands.,Philippine Islands,0.9828,"[69, 340, 274, 365]",True,1.0,True,
+value,8,Philippine Islands,area,Gross area (land and water) in square miles.,"115,026",115026,0.9998,"[748, 338, 834, 366]",True,1.0,True,검증됨(자동)
+value,8,Philippine Islands,population,Population: 1910,"17,635,426",7635426,0.9885,"[921, 340, 1035, 365]",True,1.0,True,수정
+label,9,Panama Canal Zone,label,AREA,Panama Canal Zone,Panama Canal Zone,0.9907,"[70, 365, 281, 386]",True,1.0,True,
+value,9,Panama Canal Zone,area,Gross area (land and water) in square miles.,436,436,1.0,"[793, 362, 834, 386]",True,1.0,True,검증됨(자동)
+value,9,Panama Canal Zone,population,Population: 1910,"262,810",62810,0.9448,"[952, 363, 1035, 388]",True,1.0,True,수정
+label,10,Guam (population estimated),label,AREA,Guam (population estimated),Guam (population estimated),0.9973,"[69, 385, 377, 409]",True,1.0,True,
+value,10,Guam (population estimated),area,Gross area (land and water) in square miles.,210,210,1.0,"[792, 385, 833, 408]",True,1.0,True,검증됨(자동)
+value,10,Guam (population estimated),population,Population: 1910,"9,000",9000,0.9999,"[971, 386, 1034, 410]",True,0.958,True,검증됨(자동)
+label,11,Samoa (population estimated),label,AREA,Samoa (population estimated),Samoa (population estimated),0.9984,"[69, 408, 383, 432]",True,1.0,True,
+value,11,Samoa (population estimated),area,Gross area (land and water) in square miles.,77,77,1.0,"[802, 406, 834, 431]",True,0.958,True,검증됨(자동)
+value,11,Samoa (population estimated),population,Population: 1910,"6,100",6100,0.9999,"[971, 406, 1036, 435]",True,1.0,True,검증됨(자동)

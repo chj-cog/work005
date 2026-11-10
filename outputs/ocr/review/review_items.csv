@@ -1,0 +1,27 @@
+﻿row_id,label,column,raw_text,bbox_xyxy,category,reason,evidence,resolution
+header,,label,Table 1,"[21, 24, 110, 44]",낮은 신뢰도,OCR 점수 0.962 < 0.97,원본 육안 대조: 헤더 문자열 일치 (산술 검증 대상 아님),검토 완료(육안)
+header,,population,Population:,"[907, 33, 1006, 53]",낮은 신뢰도,OCR 점수 0.9605 < 0.97,원본 육안 대조: 헤더 문자열 일치 (산술 검증 대상 아님),검토 완료(육안)
+header,,population,1910,"[941, 49, 989, 71]",낮은 신뢰도,OCR 점수 0.9391 < 0.97,원본 육안 대조: 헤더 문자열 일치 (산술 검증 대상 아님),검토 완료(육안)
+1,"United States, with outlying possessions",area,"3,743,306","[727, 118, 833, 142]",엔진 간 판독 불일치,PP-StructureV3 표 어디에도 같은 숫자가 없음 (다르게 판독),열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (3743306),검증됨(자동)
+1,"United States, with outlying possessions",area,"3,743,306","[727, 118, 833, 142]",엔진 간 위치 불일치,"PP-StructureV3는 이 행의 area 셀에 '3,743,806'를 둠",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (3743306),검증됨(자동)
+1,"United States, with outlying possessions",population,"101, 115, 487","[909, 118, 1033, 144]",낮은 신뢰도,OCR 점수 0.9624 < 0.97,열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (101115487),검증됨(자동)
+1,"United States, with outlying possessions",population,"101, 115, 487","[909, 118, 1033, 144]",숫자 형식 이상,숫자 안에 공백,열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (101115487),검증됨(자동)
+2,"United States, exclusive of outlying possessions",population,"91, 972,266","[922, 163, 1034, 187]",낮은 신뢰도,OCR 점수 0.9638 < 0.97,열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (91972266),검증됨(자동)
+2,"United States, exclusive of outlying possessions",population,"91, 972,266","[922, 163, 1034, 187]",숫자 형식 이상,숫자 안에 공백,열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (91972266),검증됨(자동)
+4,Alaska,area,"590,884","[749, 249, 835, 276]",엔진 간 위치 불일치,"PP-StructureV3가 'Hawaii' 행과 한 셀로 병합: 'Alaska.... Hawaii..' → '590,884 6,449'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (590884),검증됨(자동)
+4,Alaska,population,"64,356","[963, 251, 1036, 276]",엔진 간 위치 불일치,"PP-StructureV3가 'Hawaii' 행과 한 셀로 병합: 'Alaska.... Hawaii..' → '64,356 191,909'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (64356),검증됨(자동)
+5,Hawaii,label,Hawaii.,"[68, 273, 152, 298]",낮은 신뢰도,OCR 점수 0.9358 < 0.97,원본 육안 대조: 레이블 일치,검토 완료(육안)
+5,Hawaii,area,"6,449","[769, 271, 835, 300]",엔진 간 위치 불일치,"PP-StructureV3가 'Alaska' 행과 한 셀로 병합: 'Alaska.... Hawaii..' → '590,884 6,449'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (6449),검증됨(자동)
+5,Hawaii,population,"191,909","[952, 274, 1035, 299]",엔진 간 위치 불일치,"PP-StructureV3가 'Alaska' 행과 한 셀로 병합: 'Alaska.... Hawaii..' → '64,356 191,909'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (191909),검증됨(자동)
+7,Military and naval service abroad,area,,"[671, 317, 855, 344]",빈 셀 / 연결 위험,"OCR 값 없음. 레이블의 점선 리더가 세로 구분선을 넘어 이 열까지 이어져, 다른 행의 값이 잘못 붙거나 점선이 숫자로 오인될 위험","셀 영역 [671, 317, 855, 344]에 높이 8px 이상 글자 없음; 점 16개(점선 리더)만 존재. 열 합계 검증 통과",공란
+7,Military and naval service abroad,population,"55,608","[962, 319, 1034, 343]",엔진 간 위치 불일치,"PP-StructureV3가 'Philippine Islands' 행과 한 셀로 병합: 'Military and naval service abroad. Philippine Islands..' → '55,608'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (55608),검증됨(자동)
+8,Philippine Islands,area,"115,026","[748, 338, 834, 366]",엔진 간 위치 불일치,"PP-StructureV3가 'Military and naval service abroad' 행과 한 셀로 병합: 'Military and naval service abroad. Philippine Islands..' → '115,026'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (115026),검증됨(자동)
+8,Philippine Islands,population,"17,635,426","[921, 340, 1035, 365]",숫자 형식 이상,"선두 글자가 위첨자(각주 기호) 형태: 첫 글자 높이 10px / 숫자 중앙값 17px, 아래끝 y=355 / 기준선 y=362","열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (7635426); 첫 글자 높이 10px / 숫자 중앙값 17px, 아래끝 y=355 / 기준선 y=362",수정
+8,Philippine Islands,population,"17,635,426","[921, 340, 1035, 365]",엔진 간 위치 불일치,"PP-StructureV3는 이 행의 population 셀에 '55,608'를 둠","열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (7635426); 첫 글자 높이 10px / 숫자 중앙값 17px, 아래끝 y=355 / 기준선 y=362",수정
+9,Panama Canal Zone,population,"262,810","[952, 363, 1035, 388]",낮은 신뢰도,OCR 점수 0.9448 < 0.97,"열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (62810); 첫 글자 높이 11px / 숫자 중앙값 16px, 아래끝 y=378 / 기준선 y=384",수정
+9,Panama Canal Zone,population,"262,810","[952, 363, 1035, 388]",숫자 형식 이상,"선두 글자가 위첨자(각주 기호) 형태: 첫 글자 높이 11px / 숫자 중앙값 16px, 아래끝 y=378 / 기준선 y=384","열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (62810); 첫 글자 높이 11px / 숫자 중앙값 16px, 아래끝 y=378 / 기준선 y=384",수정
+9,Panama Canal Zone,population,"262,810","[952, 363, 1035, 388]",엔진 간 위치 불일치,"PP-StructureV3가 이 행의 population 셀에 숫자 2개를 넣음 (값 밀림): '17,635,426 262,810'","열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (62810); 첫 글자 높이 11px / 숫자 중앙값 16px, 아래끝 y=378 / 기준선 y=384",수정
+10,Guam (population estimated),area,210,"[792, 385, 833, 408]",엔진 간 위치 불일치,PP-StructureV3가 'Samoa (population estimated)' 행과 한 셀로 병합: 'Guam (population estimated). Samoa (population estimated).' → '210 77',열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (210),검증됨(자동)
+10,Guam (population estimated),population,"9,000","[971, 386, 1034, 410]",엔진 간 위치 불일치,"PP-StructureV3가 'Samoa (population estimated)' 행과 한 셀로 병합: 'Guam (population estimated). Samoa (population estimated).' → '9,000 6, 100'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (9000),검증됨(자동)
+11,Samoa (population estimated),area,77,"[802, 406, 834, 431]",엔진 간 위치 불일치,PP-StructureV3가 'Guam (population estimated)' 행과 한 셀로 병합: 'Guam (population estimated). Samoa (population estimated).' → '210 77',열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (77),검증됨(자동)
+11,Samoa (population estimated),population,"6,100","[971, 406, 1036, 435]",엔진 간 위치 불일치,"PP-StructureV3가 'Guam (population estimated)' 행과 한 셀로 병합: 'Guam (population estimated). Samoa (population estimated).' → '9,000 6, 100'",열 합계 검증 통과; 독립 행·열 재배정 일치; 육안 전사본 일치 (6100),검증됨(자동)

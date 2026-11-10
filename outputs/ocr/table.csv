@@ -1,0 +1,12 @@
+﻿row_id,level,parent_row_id,label,label_raw,area_sq_mi,area_raw,area_status,population_1910,population_raw,population_footnote,population_status,min_ocr_score,note
+1,1,,"United States, with outlying possessions","United States, with outlying possessions",3743306,"3,743,306",검증됨,101115487,"101, 115, 487",,검증됨,0.9624,"공백 제거 정규화 ('101, 115, 487')"
+2,1,1,"United States, exclusive of outlying possessions","United States, exclusive of outlying possessions.",3026789,"3,026,789",검증됨,91972266,"91, 972,266",,검증됨,0.9638,"공백 제거 정규화 ('91, 972,266')"
+3,1,1,Outlying possessions,Outlying possessions.,716517,"716,517",검증됨,9143221,"9,143,221",,검증됨,0.9993,
+4,2,3,Alaska,Alaska.,590884,"590,884",검증됨,64356,"64,356",,검증됨,0.9991,
+5,2,3,Hawaii,Hawaii.,6449,"6,449",검증됨,191909,"191,909",,검증됨,0.9358,
+6,2,3,Porto Rico,Porto Rico.,3435,"3,435",검증됨,1118012,"1,118,012",,검증됨,0.9965,
+7,2,3,Military and naval service abroad,Military and naval service abroad,,,공란,55608,"55,608",,검증됨,0.9994,OCR 미검출. 원본은 점선 리더만 있는 공란이며 합계 검증과 일치
+8,2,3,Philippine Islands,Philippine Islands.,115026,"115,026",검증됨,7635426,"17,635,426",1,수정,0.9828,"원시 OCR '17,635,426'에서 위첨자 1 분리"
+9,2,3,Panama Canal Zone,Panama Canal Zone,436,436,검증됨,62810,"262,810",2,수정,0.9448,"원시 OCR '262,810'에서 위첨자 2 분리"
+10,2,3,Guam (population estimated),Guam (population estimated),210,210,검증됨,9000,"9,000",,검증됨,0.9973,
+11,2,3,Samoa (population estimated),Samoa (population estimated),77,77,검증됨,6100,"6,100",,검증됨,0.9984,

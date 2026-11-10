@@ -1,0 +1,105 @@
+{
+  "all_passed": true,
+  "results": [
+    {
+      "check": "input sha256 unchanged",
+      "pass": true,
+      "detail": "fd72e32c16dc0ce4"
+    },
+    {
+      "check": "input copy in outputs/ocr is byte-identical",
+      "pass": true,
+      "detail": "census-table.png"
+    },
+    {
+      "check": "manifest records source URL, pages, license, run location",
+      "pass": true,
+      "detail": "pdf p.2 / printed p.22"
+    },
+    {
+      "check": "manifest outputs exist & non-empty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "raw OCR JSON has texts/scores/polys of equal length",
+      "pass": true,
+      "detail": "41 lines"
+    },
+    {
+      "check": "image opens: ocr_visualization.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "image opens: raw/ocr/census-table_ocr_res_img.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "table.csv rows == 11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "CSV: area components sum == Outlying",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV: population components sum == Outlying",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV: area total == excl + outlying",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV: population total == excl + outlying",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV keeps raw OCR text alongside corrected values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV '확인 필요' cells listed",
+      "pass": true,
+      "detail": "0: []"
+    },
+    {
+      "check": "cell-by-cell match with manual reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "raw OCR numeric errors recorded (informational)",
+      "pass": true,
+      "detail": "2/21 wrong before correction: [\"Philippine Islands: raw '17,635,426'\", \"Panama Canal Zone: raw '262,810'\"]"
+    },
+    {
+      "check": "every '수정' cell has a review_log entry",
+      "pass": true,
+      "detail": "[('8', 'population'), ('9', 'population')]"
+    },
+    {
+      "check": "document.md table rows == 11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "document.md numbers == table.csv numbers",
+      "pass": true,
+      "detail": "21 vs 21"
+    },
+    {
+      "check": "document.md has footnotes",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
